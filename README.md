@@ -1,5 +1,5 @@
 # MY498 Capstone Assignment
-A Machine Learning Approach To Identify Linguistic Markers Of Depression And The Obstacles To Seeking Help Among Adolescents And Young Adults
+Topic: *A Machine Learning Approach To Identify Linguistic Markers Of Depression And The Obstacles To Seeking Help Among Adolescents And Young Adults*
 
 This repository contains my MY498 Capstone Assignment for the MSc Applied Social Data Science at the London School of Economics.
 
