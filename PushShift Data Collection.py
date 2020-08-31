@@ -7,15 +7,6 @@ from psaw import PushshiftAPI
 def main():
     print("This module contains functions for scraping PushShift for Reddit data")
 
-def get_cheater_data(filename):
-    '''Opens the PUBG cheater file and returns
-    a dictionary with cheater IDs as keys and
-    their cheating start date in datetime format as values.'''
-    
-    url = "https://api.pushshift.io/reddit/search/submission"
-    params = {"subreddit": "depressed"}
-    submissions = requests.get(url, params = params)
-
 def crawl_page(subreddit: str, last_page = None):
     """Crawl a page of results from a given subreddit"""
     url = "https://api.pushshift.io/reddit/search/submission"
