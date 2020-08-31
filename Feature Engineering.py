@@ -4,7 +4,7 @@ import nltk
 
 
 def main():
-    print("This module contains functions for scraping PushShift for Reddit data")
+    print("This module contains functions for creating additional features")
     
 def punctuation(posts_ls):
     """Provide count of punctuation usage"""
